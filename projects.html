@@ -1,113 +1,67 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html>
 <head>
-<script data-ad-client="ca-pub-7317115222834594" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- CSS -->
-<style>
-/* Style The Dropdown Button */
-.dropbtn {
-  background-color: #000000;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  height: 50px;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #0f0f0f;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f0f0f0;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #f0f0f0;
-  color:#000;
-}
-
-header	{
-	height: 50px;
-	width: 100%;
-	background-color: #000000;
-}
-body	{
-	text-align:center;
-	margin-top: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	background-color: #333639;
-}
-main	{
-	margin-top: 8px;
-	margin-left: 8px;
-	margin-right: 8px;
-}
-p, a	{
-	font-family:courier;
-}
-h1	{
-	font-family:verdana;
-	text-align:center;
-	margin-top: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	border-top: 0px;
-	border-left: 0px;
-	border-right: 0px;
-}
-h2	{
-	font-family:verdana;
-	text-align:center;
-}
-</style>
-<!-- CSS End -->
-
-<title>Seamus Smith Software</title>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<title>Projects</title>
+	<!--CSS-->
+	<!--Bootstrap-->
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' crossorigin='anonymous'>
+	<!--FontAwesome-->
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+	<!--Custom CSS-->
+	<link rel='stylesheet' href='css/style.css'>
 </head>
-
-<header>
-<div class="dropdown"  style="float:left;">
-  <button class="dropbtn">Menu</button>
-  <div class="dropdown-content">
-    <a href="https://seamussmithsoftware.github.io">ABOUT</a>
-    <a href="https://seamussmithsoftware.github.io/projects.html">SOFTWARE</a>
-  </div>
-</div>
-<h1>Seamus Smith Software</h1>
-</header>
-<body style= "color:white">
-<hr>
-<h2> Software </h2>
-<h3> Windows: </h3>
-<a style= "color:white"  href="https://github.com/SeamusSmithSoftware/Projects/raw/master/Samuel%20L%20Jackson%20Quote%20generator.zip" target="_blank">Samuel L Jackson Quote Generator</a>
-<hr>
+<body>
+	<!--HEADER-->
+	<header>
+		<div class='jumbotron continer-fluid'>
+			<div class='text-center'>
+				<h1>Projects</h1>
+				<p>Here are some of the Projects I have been working on.</p>
+			</div>
+		</div>
+	</header>
+	<nav class='navbar navbar-inverse navbar-fixed-top'>
+		<div class='container-fluid'>
+			<header class='navbar-header'>
+				<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#myNavbar'>
+					<span class='icon-bar'></span>
+					<span class='icon-bar'></span>
+					<span class='icon-bar'></span>
+				</button>
+				<a class='navbar-brand' href='index.html'>Seamus Smith Software</a>
+			</header>
+			<div clas='collapse navbar-collapse' id='myNavbar'>
+				<ul class='nav navbar-nav'>
+					<li><a href='projects.html'>Projects</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--MAIN-->
+	<main>
+		<a href='https://github.com/SeamusSmithSoftware/Projects/raw/master/Samuel%20L%20Jackson%20Quote%20generator.zip' target='_blank'>Samuel L Jackson Quote Generator>
+	</main>
+	<!--FOOTER-->
+	<footer class='text-center'>
+		<nav class='nomargin navbar navbar-inverse navbar-fixed-bottom'>
+			<div class='container-fluid'>
+				<ul class='nav navbar-nav'>
+					<li><a href='https://www.instagram.com/seamussmithsoftware/'><i class="fa fa-instagram"></i></a></li>
+				</ul>
+				<ul class='nav navbar-nav navbar-right'>
+					<li class='navbar-text'>Copyright &copy; Seamus Smith Software</li>
+				</ul>
+			</div>
+		</nav>
+	</footer>
+	<!--JAVASCRIPT-->
+	<!--JQuery-->
+	<script src='https://code.jquery.com/jquery-3.1.0.min.js' integrity='sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=' crossorigin='anonymous'></script>	
+	<!--Bootstrap JS-->
+	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js' integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa' crossorigin='anonymous'></script>	
+	<!--Custom JS-->
 </body>
 </html>
